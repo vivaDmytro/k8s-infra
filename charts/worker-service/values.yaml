@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: dmytrobudnik/worker-service
-  tag: "ba2eca83"
+  tag: "172b4a30"
   pullPolicy: IfNotPresent
 
 service:
