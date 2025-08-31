@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: dmytrobudnik/api-service
-  tag: "fc173576"
+  tag: "55fc852b"
   pullPolicy: IfNotPresent
 
 service:
