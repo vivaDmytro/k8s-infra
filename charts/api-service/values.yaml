@@ -1,0 +1,16 @@
+replicaCount: 2
+
+image:
+  repository: dmytrobudnik/api-service
+  tag: "0.0.1"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  host: api.local
+  annotations: {}
+  tls: []
